@@ -14,3 +14,4 @@
 ## Tasks
 - For this HTML project, we are to use the given designer file to implement the webpage from scratch.
 - Each task gives a step by step process of each sections to implement the webpage.
+- The task starts with making the HTML skeleton into creating the header with elements, then creating a banner section inside the header, following up with a video list containing image and author information. Finishing up with a membership section, FAQ section and adding information to the footer. 
