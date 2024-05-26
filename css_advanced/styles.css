@@ -6,8 +6,33 @@ header {
     background-position: center;
 }
 
-.body {
+body {
+    text-align: center;
+}
+
+.nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items:flex-start;
+    justify-content: space-between;
+
+}
+
+.nav1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.nav2 {
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+}
+
+.block1 {
+    text-align: center;
+}
+
+.block2 {
+    text-align: center;
 }
