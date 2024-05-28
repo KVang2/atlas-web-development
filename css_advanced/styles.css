@@ -4,6 +4,8 @@ header {
     background-image: url('image/background.png');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    height: fit-content;
 }
 
 body {
@@ -29,10 +31,91 @@ body {
     flex-direction: row;
 }
 
-.block1 {
-    text-align: center;
+.banner .block-1 h1 {
+    height: 151px;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: 2px;
 }
 
-.block2 {
+.banner .block-1 p {
+    display: flex;
+    justify-content: space-around;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+}
+
+.block-1 {
     text-align: center;
+    justify-content: space-evenly;
+}
+
+.block-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sub-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sub-blocks > div {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.sub-blocks > div img {
+    border-radius: 50%
+}
+
+.sub-blocks .sub1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sub-blocks .sub2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sub-blocks .sub3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+} 
+
+.sub-blocks .sub4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.button1 {
+    width: 162px;
+    height: 44px;
+    top: 419px;
+    left: 639px;
+    border-radius:40rem;
+    background-color: #C271ff;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Quote Section */
+
+.quote {
+    display: flex;
+    background-color: #C271ff;
+    color: white;
+    padding: 20px;
 }
