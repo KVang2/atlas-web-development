@@ -6,6 +6,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     height: fit-content;
+    padding-bottom: 60px;
 }
 
 body {
@@ -22,13 +23,34 @@ body {
 .nav1 {
     display: flex;
     justify-content: flex-start;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
+
 .nav2 {
     display: flex;
-    justify-content:flex-end;
     flex-direction: row;
+    align-items: center;
+}
+
+.nav2 ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.nav2 ul li {
+    width: 100%;
+    text-align: center;
+}
+
+.banner .block1-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color:#ffffff;
+    font-size: small;
+    margin-top: -80px;
 }
 
 .banner .block-1 h1 {
@@ -36,15 +58,16 @@ body {
     color: #ffffff;
     font-size: 50px;
     letter-spacing: 2px;
+    font-stretch: expanded;
 }
 
 .banner .block-1 p {
     display: flex;
     justify-content: space-around;
-    margin-block-start: 2em;
-    margin-block-end: 2em;
-    margin-inline-start: 2px;
-    margin-inline-end: 2px;
+    margin-block-start: 1.5em;
+    margin-block-end: 5em;
+    margin-inline-start: 6px;
+    margin-inline-end: 6px;
 }
 
 .block-1 {
@@ -58,6 +81,14 @@ body {
     margin-top: 20px;
 }
 
+.block-2 h2 {
+    color: #ffffff;
+}
+
+.block-2 .purple-text {
+    color:#C271FF;
+}
+
 .sub-blocks {
     display: flex;
     flex-direction: row;
@@ -67,10 +98,14 @@ body {
 .sub-blocks > div {
     flex: 1;
     margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sub-blocks > div img {
-    border-radius: 50%
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 .sub-blocks .sub1 {
@@ -97,10 +132,22 @@ body {
     justify-content: flex-start;
 }
 
+.sub-blocks .sub-name {
+    color:#ffffff;
+    white-space: nowrap;
+}
+
+.sub-blocks .sub-p {
+    color:#ffffff;
+    margin-top: -10px;
+    font-size: 12px;
+    font-style: italic;
+}
+
 .button1 {
     width: 162px;
     height: 44px;
-    top: 419px;
+    top: 300px;
     left: 639px;
     border-radius:40rem;
     background-color: #C271ff;
@@ -116,6 +163,25 @@ body {
 .quote {
     display: flex;
     background-color: #C271ff;
-    color: white;
-    padding: 20px;
+    color: #ffffff;
+    padding: 40px;
+    align-items: center;
+}
+
+.quote > img {
+    margin-right: 10px;
+    transform: scale(1.0);
+    border-radius: 50%;
+    margin-left: 60px;
+}
+
+.quote > div {
+    flex: 1;
+    text-align: left;
+}
+
+.quote .quote-name {
+    display: flex;
+    text-align: left;
+    margin-left: 35px;
 }
