@@ -187,6 +187,51 @@ body {
     margin-left: 35px;
 }
 
+/* Video Section */
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    gap: 40px;
+    font-family: Source Sans Pro;
+}
+
+.video-h1 {
+    margin: 75px;
+}
+
+.video-h1 span {
+    color:#C271FF;
+}
+
+.vi {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.va {
+    display: flex;
+    align-items: center;
+    color:#C271FF;
+    font-size: 12px;
+}
+
+.va .vi {
+    margin-right: 10px;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+}
+
+.stars > p {
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* Membership Section */
 
 .member {
@@ -231,7 +276,20 @@ body {
     margin: 50px;
     margin-left: 85px;
     margin-right: 85px;
+    font-family: Source Sans Pro;
+    color:#071629;
+}
 
+.FAQ .divs {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.FAQ .div1 {
+    width: calc(50% - 60px); /* setting width to increase gap between */
+    margin-bottom: 60px;
+    text-align: left;
 }
 
 /* footer */
