@@ -227,9 +227,9 @@ body {
     align-items: center;
 }
 
-.stars > p {
-    display: flex;
-    justify-content: flex-end;
+.stars p {
+    color:#C271FF;
+    margin-left: 60px;
 }
 
 /* Membership Section */
