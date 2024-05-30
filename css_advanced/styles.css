@@ -28,7 +28,7 @@ body {
 }
 
 .nav2 {
-    margin-top: 25px;
+    margin-top: 38px;
     margin-right: 25px;
 }
 
@@ -281,7 +281,6 @@ body {
 
 .footer {
     background-color: #071629;
-    color: #ffffff;
     padding: 45px;
 }
 
@@ -301,7 +300,6 @@ body {
 .footer-caption {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
     margin-bottom: 15px;
     font-size: 10px;
     color: rgba(248, 245, 245, 0.5);
