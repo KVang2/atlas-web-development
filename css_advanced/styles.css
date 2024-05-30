@@ -186,3 +186,54 @@ body {
     text-align: left;
     margin-left: 35px;
 }
+
+/* Membership Section */
+
+.member {
+    background-color: #071629;
+    color: #ffffff;
+    padding: 80px;
+}
+
+.member h1 .free {
+    color:#C271ff;
+}
+
+/* FAQ */
+
+.FAQ {
+    margin: 50px;
+    margin-left: 85px;
+    margin-right: 85px;
+
+}
+
+/* footer */
+
+.footer {
+    background-color: #071629;
+    color: #ffffff;
+    padding: 45px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-images {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-caption {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 15px;
+    font-size: 10px;
+    color: rgba(248, 245, 245, 0.5);
+}
