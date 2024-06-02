@@ -11,3 +11,5 @@ The objective of this project is to used the written HTML from the first given p
 The tasks are broken down into a total of 8 task which requires you to build the css on a certain section. The final result should look as close to the figma link as possible.
 
 - Figma link: https://www.figma.com/design/XrEAsu1vQj5fhVaNG38d2W/Homepage?node-id=0-1&t=2MnVAcxJibOqQRun-0
+
+- The webpage implemented by me: https://kvang2.github.io/atlas-web-development/
